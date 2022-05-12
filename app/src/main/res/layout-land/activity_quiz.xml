@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15sp">
+
+
+    <TextView
+        android:id="@+id/namedisplay"
+        android:layout_width="145dp"
+        android:layout_height="28dp"
+        android:layout_alignEnd="@+id/true_button"
+        android:gravity="center_horizontal"
+        android:text="Name Display"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/question_answered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Question Answered"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/namedisplay"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:text="This is questions"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/true_button"
+        android:layout_width="526dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/false_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:text="@string/true_button" />
+
+    <Button
+        android:id="@+id/false_button"
+        android:layout_width="525dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="126dp"
+        android:text="@string/false_button" />
+
+
+    <TextView
+        android:id="@+id/cheat_tokens_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/namedisplay"
+        android:layout_marginBottom="40dp"
+        android:text="X cheat tokens remaining" />
+
+
+    <ImageButton
+        android:id="@+id/prev_button"
+        android:layout_width="152dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/false_button"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="-126dp"
+        android:src="@mipmap/left_launcher_foreground" />
+
+    <ImageButton
+        android:id="@+id/next_button"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/prev_button"
+        android:layout_marginEnd="151dp"
+        android:src="@mipmap/right_launcher_foreground" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp">
+
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:text="Reset" />
+
+        <Button
+            android:id="@+id/cheat_button"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/cheat_button" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
