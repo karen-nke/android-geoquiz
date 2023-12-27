@@ -29,3 +29,6 @@ GeoQuiz is an Android quiz app that tests your knowledge of world geography. It'
 
 This project is licensed under the [MIT License](LICENSE).
 
+_Coursework 1 for CSC2074 Mobile Application Development (April 2022 - July 2022)_
+
+
